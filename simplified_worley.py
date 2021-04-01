@@ -2,7 +2,7 @@ import pygame
 import sys
 import numpy as np
 from numba import jit
-SCREEN_SIZE = WIDTH, HEIGHT = 400, 400
+SCREEN_SIZE = WIDTH, HEIGHT = 800, 800
 
 @jit(nopython = True)
 def calc_rgb_noise(pixel_array, indexes):
